@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid #868383 1px;
+    padding: 20px;
+}
+
+.buttons {
+    background-color: #e6f5ff;
+    border: none;
+    color: #0A99FE;
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.buttons:hover {
+    background-color: #0a99fe;
+    color: #e6f5ff;
+    cursor:pointer;
+    transition: 1s;
+}
+
+section{
+    padding: 30px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 80px;
+    gap: 20px;
+    width: 70%;
+    overflow-x: auto;
+    min-height: 400px;
+}
+
+.item-card{
+    list-style-type: none;
+    width: 207px;
+    height: 275px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+
+}
+
+.cards{
+    width: 207px;
+    min-height: 275px;
+    border-radius: 10px;
+    object-fit:cover;
+}
+
+.cards:hover{
+    cursor: pointer;
+    height: 100%;
+    object-fit:cover;
+    transition: 1s;
+    box-shadow: 2px 4px 22px 2px rgba(0,0,0,1);
+    -webkit-box-shadow: 2px 4px 22px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 4px 22px 2px rgba(0,0,0,1);
+}
